@@ -43,7 +43,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Build an image from Dockerfile
         run: |
           docker build -t alpine-latest -f alpine-latest.dockerfile .
@@ -78,7 +78,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Build an image from Dockerfile
         run: |
           docker build -t rhel8-minimal -f rhel8-minimal.dockerfile .
@@ -113,7 +113,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Build an image from Dockerfile
         run: |
           docker build -t rhel9-minimal -f rhel9-minimal.dockerfile .
@@ -148,7 +148,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Build an image from Dockerfile
         run: |
           docker build -t rhel10-minimal -f rhel10-minimal.dockerfile .
@@ -183,7 +183,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Build an image from Dockerfile
         run: |
           docker build -t ubuntu-22-04 -f ubuntu-22-04.dockerfile .
@@ -218,7 +218,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Build an image from Dockerfile
         run: |
           docker build -t ubuntu-24-04 -f ubuntu-24-04.dockerfile .
@@ -253,7 +253,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Build an image from Dockerfile
         run: |
           docker build -t ubuntu-26-04 -f ubuntu-26-04.dockerfile .
@@ -288,7 +288,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - name: Build an image from Dockerfile
         run: |
           docker build -t flatcar-stable -f flatcar-stable.dockerfile .
